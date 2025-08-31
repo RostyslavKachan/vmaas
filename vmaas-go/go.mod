@@ -14,7 +14,7 @@ require (
 	github.com/redhatinsights/platform-go-middlewares/v2 v2.0.0
 	github.com/redhatinsights/vmaas-lib v1.31.5
 	github.com/sirupsen/logrus v1.9.3
-	github.com/stretchr/testify v1.10.0
+	github.com/stretchr/testify v1.11.1
 	github.com/swaggo/files v1.0.1
 	github.com/swaggo/gin-swagger v1.6.0
 	github.com/zsais/go-gin-prometheus v1.0.1
