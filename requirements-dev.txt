@@ -164,7 +164,7 @@ coverage==7.10.3 ; python_version == "3.12" \
     --hash=sha256:f5983c132a62d93d71c9ef896a0b9bf6e6828d8d2ea32611f58684fba60bba35 \
     --hash=sha256:f930a4d92b004b643183451fe9c8fe398ccf866ed37d172ebaccfd443a097f61 \
     --hash=sha256:fe72cbdd12d9e0f4aca873fa6d755e103888a7f9085e4a62d282d9d5b9f7928c
-cryptography==45.0.6 ; python_version == "3.12" \
+cryptography==45.0.7 ; python_version == "3.12" \
     --hash=sha256:00e8724bdad672d75e6f069b27970883179bd472cd24a63f6e620ca7e41cc0c5 \
     --hash=sha256:048e7ad9e08cf4c0ab07ff7f36cc3115924e22e2266e034450a890d9e312dd74 \
     --hash=sha256:0d9ef57b6768d9fa58e92f4947cea96ade1233c0e236db22ba44748ffedca394 \

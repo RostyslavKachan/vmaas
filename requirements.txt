@@ -179,7 +179,7 @@ colorama==0.4.6 ; python_version == "3.12" and platform_system == "Windows" \
 connexion==3.1.0 ; python_version == "3.12" \
     --hash=sha256:66a44580991f53955b6e409a84fa9fa65c7ca4db52dc217b49cd35c201066083 \
     --hash=sha256:e92b6d0412eb54b3b69f2516b93d982a06b0e23f6d5c1ab94257c55d365f63ce
-cryptography==45.0.6 ; python_version == "3.12" \
+cryptography==45.0.7 ; python_version == "3.12" \
     --hash=sha256:00e8724bdad672d75e6f069b27970883179bd472cd24a63f6e620ca7e41cc0c5 \
     --hash=sha256:048e7ad9e08cf4c0ab07ff7f36cc3115924e22e2266e034450a890d9e312dd74 \
     --hash=sha256:0d9ef57b6768d9fa58e92f4947cea96ade1233c0e236db22ba44748ffedca394 \
