@@ -343,7 +343,7 @@ types-psycopg2==2.9.21.20250809 ; python_version == "3.12" \
 types-pyopenssl==24.1.0.20240722 ; python_version == "3.12" \
     --hash=sha256:47913b4678a01d879f503a12044468221ed8576263c1540dcb0484ca21b08c39 \
     --hash=sha256:6a7a5d2ec042537934cfb4c9d4deb0e16c4c6250b09358df1f083682fe6fda54
-types-python-dateutil==2.9.0.20250809 ; python_version == "3.12" \
+types-python-dateutil==2.9.0.20250822 ; python_version == "3.12" \
     --hash=sha256:69cbf8d15ef7a75c3801d65d63466e46ac25a0baa678d89d0a137fc31a608cc1 \
     --hash=sha256:768890cac4f2d7fd9e0feb6f3217fce2abbfdfc0cadd38d11fba325a815e4b9f
 types-pyyaml==6.0.12.20250809 ; python_version == "3.12" \
