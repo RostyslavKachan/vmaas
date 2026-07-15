@@ -160,6 +160,41 @@ paths:
       tags:
         - Sync
 
+  /sync/repo/queue:
+    put:
+      summary: Queue a specific repository for sync (IoP mode)
+      operationId: vmaas.reposcan.reposcan.RepoQueueHandler.put
+      <<: *secured
+      parameters:
+        - name: label
+          description: Content set label to queue for sync (e.g. rhel-8-for-x86_64-baseos-rpms)
+          required: true
+          in: query
+          schema:
+            type: string
+        - name: releasever
+          description: Specific release version to queue (e.g. 8.9). If omitted, all versions of the label are queued.
+          required: false
+          in: query
+          schema:
+            type: string
+        - name: basearch
+          description: Specific base architecture to queue (e.g. x86_64). If omitted, all architectures are queued.
+          required: false
+          in: query
+          schema:
+            type: string
+        - name: organization
+          description: Organization name (e.g. org_id). Defaults to DEFAULT if omitted.
+          required: false
+          in: query
+          schema:
+            type: string
+      responses:
+        <<: *sync_responses
+      tags:
+        - Sync
+
   /sync/cvemap:
     put:
       summary: Sync the CVE map
